@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../assets/css/animate.css">
 	<link rel="stylesheet" href="../assets/css/forum.css">
 	<link rel="stylesheet" href="../assets/css/yv.css">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="../assets/css/account.css">
 </head>
 
 <body>
@@ -18,10 +18,25 @@
       <div class="section over">
         <center>
           <h2>Register</h2>
+					<p style="color: rgb(120,120,120)">Your details are not shared publicly</p>
           <form>
             <div class="form-group">
-              <input class="form-control input" type="text" placeholder="Username or Email">
-              <input class="form-control input" type="password" placeholder="Password">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              	<input class="form-control input" type="text" placeholder="Username" required>
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              	<input class="form-control input" type="email" placeholder="Email" required>
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              	<input class="form-control input" type="password" placeholder="Password" required>
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              	<input class="form-control input" type="password" placeholder="Confirm Password" required>
+							</div>
               <input type="submit" value="Register">
 
               <p><br><a href="../">Home</a> | <a href="../login">Log In</a></p>
@@ -39,7 +54,7 @@
 	<script src="./assets/js/loremipsum.js"></script>
 
   <script>
-    $(".col-md-6").css("height",$(".over").innerHeight()+200+"px");
+    $(".col-md-6").css("height",$(".over").innerHeight()+120+"px");
   </script>
 
 

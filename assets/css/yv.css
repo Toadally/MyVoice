@@ -147,8 +147,8 @@ body {
   font-weight: lighter;
 }
 button {
-  background-color: #ffff00;
-  color: black;
+  background-color: dodgerblue;
+  color: white;
   padding: 10px 30px 10px 30px;
   border: 0;
   font-size: 1.25em;
@@ -156,8 +156,8 @@ button {
   transition: 150ms;
 }
 input[type="submit"] {
-  background-color: #ffff00;
-  color: black;
+  background-color: dodgerblue;
+  color: white;
   padding: 10px 30px 10px 30px;
   border: 0;
   font-size: 1.25em;
@@ -165,14 +165,16 @@ input[type="submit"] {
   transition: 150ms;
 }
 input[type="submit"]:hover{
-  border: 5px solid #ffff00;
+  border: 5px solid dodgerblue;
   background-color: transparent;
   cursor: pointer;
+  color: black;
 }
-button:hover {
-  border: 5px solid #ffff00;
+button:not(.white-button):hover {
+  border: 5px solid dodgerblue;
   background-color: transparent;
   cursor: pointer;
+  color: black;
 }
 .section {
   width: 85%;
@@ -191,14 +193,18 @@ button:hover {
 }
 
 .unlocked {
-  background: rgba(255,255,0,1);
+  background: dodgerblue;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  color: white;
+}
+.unlocked ul li a {
+  color: white;
+  font-weight: 300;
 }
 
 .unlocked ul li:not(#logo):hover {
-  border-bottom: 6px solid #ffff00;
-  background: white;
+  background: #3498db;
 }
 .yv-home-navbar ul li:not(#logo):hover {
-  border-bottom: 6px solid #ffff00;
+  border-bottom: 6px solid dodgerblue;
 }

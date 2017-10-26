@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../assets/css/animate.css">
 	<link rel="stylesheet" href="../assets/css/forum.css">
 	<link rel="stylesheet" href="../assets/css/yv.css">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="../assets/css/account.css">
 </head>
 
 <body>
@@ -20,9 +20,16 @@
           <h2>Sign In</h2>
           <form>
             <div class="form-group">
-              <input class="form-control input" type="text" placeholder="Username or Email">
-              <input class="form-control input" type="password" placeholder="Password">
-              <input type="submit" value="Log In">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              	<input class="form-control input" type="text" placeholder="Username or Email">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              	<input class="form-control input" type="password" placeholder="Password">
+							</div>
+
+							<input type="submit" value="Log In">
 
               <p><br><a href="../">Home</a> | <a href="../register">Register</a></p>
             </div>
@@ -39,7 +46,7 @@
 	<script src="./assets/js/loremipsum.js"></script>
 
   <script>
-    $(".col-md-6").css("height",$(".over").innerHeight()+200+"px");
+    $(".col-md-6").css("height",$(".over").innerHeight()+120+"px");
   </script>
 
 

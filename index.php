@@ -35,7 +35,7 @@
 						<td class="yv-jumbo-text">
 							<h1>Letting your voice be heard.</h1>
 							<h2 class='sub'>One Post at a Time</h2>
-							<button>Sign Up</button>
+							<button class="button-white">Sign Up</button>
 						</td>
 					</tr>
 
