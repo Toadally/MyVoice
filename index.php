@@ -3,7 +3,9 @@
 
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="/assets/css/forum.css">
 	<link rel="stylesheet" href="/assets/css/yv.css">
 </head>
 
@@ -21,8 +23,8 @@
 		</ul>
 	</div>
 
-	<div class="yv-jumbo">
-
+	<div class="yv-jumbo" style="background: url('/assets/img/landscape.jpg')">
+		<video src="/assets/video/berlin.mp4" loop autoplay></video>
 		<div class="overlay">
 			<div class="text-bg">
 				<table>
@@ -30,7 +32,7 @@
 						<td width="40%">
 							<img src="./assets/img/chaticon.png" width="50%" style="margin: auto; display: block;">
 						</td>
-						<td>
+						<td class="yv-jumbo-text">
 							<h1>Letting your voice be heard.</h1>
 							<h2 class='sub'>One Post at a Time</h2>
 							<button>Sign Up</button>
@@ -45,55 +47,72 @@
 	<div class="page">
 		<div style="background: rgb(250,250,250); padding-top: 20px; padding-bottom: 20px;">
 			<div class="section">
-				<table>
-					<tr>
-						<td width="50%">
-							<h1>Anonymous Messaging</h1>
+					<div class="row">
+						<div class="col-md-6">
+							<h1>Anonymity</h1>
 							<lorem-ipsum></lorem-ipsum>
-							</td>
-							<td>
-								<img width="60%" style="margin: auto; display: block;" class="img1" src="./assets/img/sampleapp.png">
-							</td>
-					</tr>
-
-					<tr>
-						<td width="50%">
+						</div>
+						<div class="col-md-6">
+							<img width="60%" style="margin: auto; display: block;" class="img1" src="./assets/img/sampleapp.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
 							<img width="60%" style="margin: auto; display: block;" class="img2" src="./assets/img/sampleapp.png">
-						</td>
-						<td>
+						</div>
+						<div class="col-md-6">
 							<h1>Security</h1>
 							<lorem-ipsum></lorem-ipsum>
-						</td>
-					</tr>
-
-
-				</table>
+						</div>
+					</div>
 			</div>
 		</div>
+
 		<div class="section" style="box-shadow: none">
 			<center>
-				<h1 class="nomarg">We have <span class="count" id="count">666</span> users</h1><br>
+				<h1 class="nomarg">We have <span class="count" id="count">666666</span> users</h1><br>
 				<button>Join The Community</button><br>
 			</center>
 		</div>
 
 		<div style="background: rgb(250,250,250); padding-top: 20px; padding-bottom: 20px;">
 			<div class="section">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="post dark in-feed">
+							<span class="author">ExuberantRaptor</span>
+							<span class="time">5m</span>
+							<div class="tags">
+								<span class="label label-default">Politics</span>
+								<span class="label label-default">America</span>
+								<span class="label label-default">Society</span>
+							</div>
 
-				<table>
-					<tr>
-						<td width="40%">
-							<img width="40%" style="margin: auto; display: block;" class="img2" src="./assets/img/rocketicon.png">
-						</td>
+							<p class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu luctus enim. Vivamus ac mi diam...</p>
 
-						<td width="60%">
+							<div class="comments">
 
-							<h1>Our Goal</h1>
-							<lorem-ipsum></lorem-ipsum>
+								<div class="comment-inpost">
+									<span class="author">LuckyGiraffe</span>
+									<span class="time">32s</span>
 
-						</td>
-					</tr>
-				</table>
+									<p class="message">Me too! I totally agree with the ipsum dolor sit amet</p>
+								</div>
+
+
+							</div>
+							<p class="more">View Thread</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<h1>Speak Freely</h1>
+						<p>With every post, you are assigned a different name to secure your identity. Nobody will know who you are, and you will not know who responds to you. Communicate without fear of embarassment and with anonymity!</p>
+					</div>
+				</div>
+
 
 			</div>
 
@@ -110,6 +129,8 @@
 
 <footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./assets/js/forum.js"></script>
 	<script src="./assets/js/loremipsum.js"></script>
 	<script src="./assets/js/waypoint.js"></script>
 	<script>
